@@ -1,5 +1,6 @@
 import os
-from bot.adb_tools import ADB_ADDRESS, connect_to_memu
+from bot.config import ADB_ADDRESS
+from bot.adb_tools import connect_to_memu
 
 def tap_on_point(x, y):
     connect_to_memu()
